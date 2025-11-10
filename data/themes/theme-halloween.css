@@ -1,0 +1,186 @@
+:root {
+  --primary: #ff7518;   /* naranja calabaza */
+  --secondary: #d30808; /* púrpura oscuro */
+  --bg: #0a0502;        /* fondo casi negro */
+  --glow: 0 0 10px rgba(219, 134, 7, 0.897), 0 0 8px rgba(255, 0, 0, 0.5);
+}
+
+/*Fondo sangriento del header*/
+body.theme-halloween .site-header {
+  background: url("../../assets/themes/halloween-blood.png") repeat-x top / contain;
+  background-color: black;
+}
+
+body.theme-halloween {
+  fami
+}
+
+/*Título Mitos Bar*/
+body.theme-halloween .site-header h1 {
+  font-family: "Jolly Lodger", cursive, sans-serif;
+  font-size: 24px;
+  text-shadow: 0 0 6px rgba(255,117,24,0.8), 0 0 12px rgba(142,68,173,0.6);
+}
+
+/* Topbar halloween */
+body.theme-halloween .topbar {
+  background: linear-gradient(0deg, rgba(85, 1, 29, 0.85), black);
+  border: 0px;
+  border-bottom: 0 solid rgba(235, 25, 25, 0.61);
+  animation: topbarHalloweenPulse 1s infinite alternate;
+}
+
+@keyframes topHalloweenPulse {
+  from { box-shadow: 0 0 10px rgba(255,51,102,0.5), 0 0 20px rgba(179,0,60,0.3); }
+  to   { box-shadow: 0 0 20px rgba(255,51,102,0.9), 0 0 40px rgba(179,0,60,0.6); }
+}
+
+body.theme-halloween #search {
+  background: #2002078e; /* rojo vino oscuro */
+  color: var(--text);
+  box-shadow: 0 0 8px rgba(49, 3, 15, 0.384);
+}
+
+body.theme-halloween #search::placeholder {
+  color: red;
+}
+
+
+/*Nav Section */
+.sections-nav a {
+  font-family: "Amatic SC", cursive, sans-serif;
+  font-weight: 700;
+  background-color: rgba(165, 6, 6, 0.171);
+}
+
+.sections-nav a.active {
+  background-color: rgba(255, 123, 0, 0.171);
+  box-shadow: var(--glow);
+}
+
+
+
+/* Fondo general */
+body.theme-halloween {
+  background: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -2;
+  color: #f5d3d3;
+}
+
+.bg-fixed {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url("../../assets/themes/halloween-bg.png") no-repeat center top / cover;
+  z-index: -1;
+}
+
+
+
+/* Secciones con borde neón rojo */
+body.theme-halloween .section-block {
+  border: 2px solid transparent;
+  background: linear-gradient(#0a0502, #0a0502) padding-box,
+              linear-gradient(135deg, var(--primary), var(--secondary)) border-box;
+  
+  animation: halloweenPulse 1s infinite alternate;
+  background: rgba(0, 0, 0, 0.795);
+}
+
+@keyframes halloweenPulse {
+  from {
+    box-shadow: 0 0 20px rgba(15, 1, 1, 0.315), 0 0 20px rgba(0, 0, 0, 0.7);
+  }
+  to {
+    border: 2px solid red;
+    box-shadow: 0 0 20px rgba(226, 4, 4, 0.884), 0 0 30px rgba(204, 4, 4, 0.4);
+    
+  }
+}
+
+
+.product-card.horizontal {
+  background: rgba(48, 2, 59, 0.507);
+  
+}
+
+
+/* Títulos de sección y categoría con efecto “espeluznante” */
+body.theme-halloween .section-header h2 {
+  color: var(--primary);
+  text-shadow: 0 0 5px rgba(255,117,24,0.8), 0 0 12px rgba(142,68,173,0.6);
+  font-family: "Eater", cursive, sans-serif;
+}
+
+body.theme-halloween .category-title {
+  color: var(--secondary);
+  text-shadow: 0 0 2px rgba(255,117,24,0.8), 0 0 12px rgba(142,68,173,0.6);
+  font-family: "Mystery Quest", cursive, sans-serif;
+}
+
+
+
+/* Línea divisora de categorías con telaraña */
+body.theme-halloween .category-title::after {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  box-shadow: 0 0 8px rgba(255,117,24,0.8), 0 0 16px rgba(142,68,173,0.6);
+  mask-image: url("../assets/themes/web-pattern.svg"); /* opcional: patrón de telaraña */
+  mask-repeat: repeat-x;
+  mask-size: contain;
+}
+
+
+
+/* Productos exclusivos con marco especial */
+body.theme-halloween .product-card.exclusive {
+  background-color: #0a0502;
+  box-shadow: 0 0 16px rgba(255,117,24,0.7), 0 0 28px rgba(142,68,173,0.6);
+  animation: halloweenExclusivePulse 0.5s infinite alternate;
+}
+
+@keyframes halloweenExclusivePulse {
+  from { 
+    border: 1px solid rgba(121, 75, 7, 0.61);
+    box-shadow: 0 0 12px rgba(121, 79, 2, 0.801), 0 0 24px rgb(131, 60, 2); 
+    
+  }
+  to   { 
+    border: 2px solid rgb(192, 119, 9);
+    box-shadow: 0 0 24px rgb(241, 111, 4), 0 0 48px rgba(119, 1, 1, 0.4); 
+  }
+}
+
+body.theme-halloween .product-card.exclusive::after {
+  content: "🎃 Exclusivo";
+  color: var(--secondary);
+  text-shadow: 0 0 6px rgba(110, 2, 2, 0.8);
+}
+
+
+
+/* Emojis en el Título Mitos Bar */
+body.theme-halloween .theme-emojis::after {
+  content: " 🎃👻";
+}
+
+
+
+
+
+
+
+/*Telarañas esquina*/
+body.theme-halloween .topbar::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* justo debajo del header */
+  width: 280px; height: 180px;
+  background: url("../../assets/themes/halloween-web.png") no-repeat center/contain;
+  opacity: 1;
+  pointer-events: none;
+}
+
+body.theme-halloween .topbar::after  { right: -17px; }
+
+

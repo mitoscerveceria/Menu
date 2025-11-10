@@ -1,0 +1,186 @@
+:root {
+  --panel: #111625;
+  --text: #e8ecf1;
+  --muted: #9aa4b2;
+  --primary: #f36c9b;   /* rojo neón */
+  --secondary: #b8f8fa; /* azul neón */
+  --glow: 0 0 10px rgba(219, 7, 7, 0.897), 0 0 8px rgba(255, 0, 0, 0.534);
+}
+
+
+
+
+
+/*Fondo header*/
+body.theme-default .site-header {
+  background-color: rgb(17, 0, 0);
+  border-bottom: 0px;
+}
+
+
+/*Título Mitos Bar*/
+body.theme-default .site-header h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  text-shadow: 0 0 6px rgba(255, 24, 24, 0.8), 0 0 12px rgba(1, 141, 196, 0.6);
+}
+
+/* Topbar default */
+body.theme-default .topbar {
+  background: linear-gradient(0deg, rgb(65, 5, 5), rgb(17, 0, 0));
+  border: 0px;
+  border-bottom: 0px solid rgba(235, 25, 25, 0.61);
+  animation: neonPulse 3s infinite alternate;
+}
+@keyframes neonPulse {
+  from { 
+    border-bottom: 2px solid rgba(141, 38, 38, 0.925);
+    box-shadow: 
+        0 0 20px rgb(119, 4, 4),
+        0 0 40px rgba(34, 3, 3, 0.8);
+   }
+  to   { 
+    
+    border-bottom: 2px solid rgba(240, 57, 57, 0.925);
+    box-shadow: 
+        0 0 12px red,
+        0 0 24px rgba(235, 14, 14, 0.5) ;
+  }
+}
+body.theme-default #search {
+  background: #3d040d80; /* rojo vino oscuro */
+  color: var(--text);
+  border: 0px solid rgba(241, 84, 84, 0.644);
+  box-shadow: 0 0 8px rgba(168, 8, 51, 0.479);
+}
+
+body.theme-default #search::placeholder {
+  color: rgba(241, 84, 84, 0.438);
+}
+
+
+/*Nav Section */
+.sections-nav a {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: rgba(134, 5, 5, 0.171);
+}
+.sections-nav a.active {
+  border: 2px solid rgba(252, 132, 132, 0.589);
+  background-color: rgba(128, 21, 13, 0.596);
+  box-shadow: var(--glow);
+}
+
+
+
+
+/* Títulos y subtítulos neón */
+.section-header { padding-top: 0px; margin-top: 0px; }
+.section-block {
+  padding-top: 0px;
+}
+.section-header h2 {
+  font-family: "Neonderthaw", cursive;
+  font-size: 44px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary);
+  text-shadow: 
+    0 0 3px rgba(247, 174, 174, 0.952),
+    0 0 5px rgba(255, 59, 59, 0.856),
+    0 0 10px rgba(255, 59, 59, 0.6),
+    0 0 20px rgba(255, 59, 59, 0.6);
+}
+.category-title {
+  text-transform: uppercase;
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--secondary);
+  text-shadow:
+    0 0 2px rgb(37, 211, 241),
+    0 0 5px rgba(43, 217, 240, 0.89),
+    0 0 10px rgb(7, 219, 202),
+    0 0 20px rgb(7, 219, 202);
+}
+
+
+/* Secciones con borde neón celeste */
+body.theme-default .section-block {
+  border: 2px solid transparent;
+  
+  animation: halloweenPulse 1s infinite alternate;
+  background: rgba(0, 0, 0, 0.795);
+}
+
+@keyframes halloweenPulse {
+  from {
+    box-shadow: 0 0 20px rgba(15, 1, 1, 0.315), 0 0 20px rgba(0, 0, 0, 0.7);
+  }
+  to {
+    border: 2px solid var(--secondary);
+    box-shadow: 0 0 15px #3ba7ff, 0 0 25px rgba(3, 87, 155, 0.4);
+    
+  }
+}
+
+
+/* Hover social */
+.social-btn:hover {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  box-shadow: 0 0 10px rgba(255,59,59,0.7), 0 0 20px rgba(59,167,255,0.6);
+}
+
+
+/* Cards exclusivos (estilo por defecto) */
+.product-card.exclusive {
+  border: 2px solid transparent;
+  background: linear-gradient(#0e1422, #0e1422) padding-box,
+              linear-gradient(135deg, purple, rgb(22, 184, 30)) border-box;
+  position: relative;
+  animation: neonExclusivePulse 0.3s infinite alternate;
+}
+@keyframes neonExclusivePulse {
+  from { 
+    border: 2px solid rgba(106, 31, 121, 0.767);
+    box-shadow: 0 0 10px rgba(140, 5, 194, 0.4), 0 0 20px rgba(183, 59, 255, 0.2); 
+  }
+  to   { 
+    border: 2px solid rgba(216, 64, 247, 0.8);
+    box-shadow: 0 0 20px rgba(165, 35, 182, 0.8), 0 0 40px rgba(232, 59, 255, 0.5); 
+  }
+}
+.product-card.exclusive::after {
+  content: "★ Exclusivo";
+  position: absolute; top: 8px; right: 12px;
+  font-size: 12px; font-weight: bold;
+  color: var(--secondary);
+  text-shadow: 0 0 6px rgba(59,167,255,0.8);
+}
+
+
+
+
+
+/* Fondo general */
+body.theme-halloween {
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -2;
+  color: #000000;
+}
+
+.bg-fixed {
+  
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url("../../assets/themes/default-bg.png") no-repeat center top / cover;
+  z-index: -1;
+  background-color: #000000;
+}
