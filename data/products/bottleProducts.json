@@ -5,14 +5,14 @@
             "name": "Novecento",
             "image": "novecento.jpg",
             "description": "Novecento de 750 ml con 2 Speed.",
-            "price": 24000
+            "price": 26000
         },
         {
             "id": "federico-alvear",
             "name": "Federico Alvear",
             "image": "federico-alvear.jpg",
             "description": "Federico Alvear de 750 ml con 2 Speed.",
-            "price": 30000
+            "price": 35000
         },
         {
             "id": "chandon",
@@ -26,7 +26,7 @@
             "name": "Liason (Extra Brut)",
             "image": "liason.jpg",
             "description": "Liason de 1,5 Litro con 2 Speed.",
-            "price": 60000
+            "price": 70000
         },
         {
             "id": "baron-b",
@@ -42,14 +42,14 @@
             "name": "Cosecha Tardia",
             "image": "cosecha-tardia.jpg",
             "description": "Cosecha Tardia de 750 ml con 2 Speed.",
-            "price": 24000
+            "price": 26000
         },
         {
             "id": "new-age",
             "name": "New Age",
             "image": "new-age.jpg",
             "description": "New Age de 750 ml con 2 Speed.",
-            "price": 24000
+            "price": 26000
         },
         {
             "id": "santa-julia",
@@ -72,35 +72,35 @@
             "name": "Smirnoff",
             "image": "smirnoff.jpg",
             "description": "Smirnoff común con 2 Speed, Jugo de Naranja o Sprite.",
-            "price": 38000
+            "price": 44000
         },
         {
             "id": "smirnoff-saborizado",
             "name": "Smirnoff Saborizado",
             "image": "smirnoff-saborizado.jpg",
             "description": "Smirnoff Saborizado (Frutilla, Sandía, Maracuyá o Manzana Verde) con 2 Speed, Jugo de Naranja o Sprite.",
-            "price": 38000
+            "price": 44000
         },
         {
             "id": "sernova",
             "name": "Sernova",
             "image": "sernova.jpg",
             "description": "Sernova común con 2 Speed, Jugo de Naranja o Sprite.",
-            "price": 38000
+            "price": 44000
         },
         {
             "id": "skyy",
             "name": "Skyy",
             "image": "skyy.jpg",
             "description": "Skyy común con 2 Speed, Jugo de Naranja o Sprite.",
-            "price": 40000
+            "price": 46000
         },
         {
             "id": "absolut-saborizado",
             "name": "Absolut Saborizado",
             "image": "absolut-saborizado.jpg",
             "description": "Absolut Saborizado (Pera o frambuesa) con 2 Speed, Jugo de Naranja o Sprite. Preguntar por otros sabores",
-            "price": 70000
+            "price": 90000
         }
     ],
     "spirits": [
@@ -109,7 +109,7 @@
             "name": "Fernet y Coca-Cola",
             "image": "fernet-coca-cola.jpg",
             "description": "Fernet Branca de 0.75 Litro con una Coca-Cola de 2.25 Litro.",
-            "price": 50000
+            "price": 55000
         },
         {
             "id": "gin-tonica",
