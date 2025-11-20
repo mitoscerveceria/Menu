@@ -4,7 +4,7 @@
             "id": "jarra-fernet",
             "name": "Jarra de Fernet",
             "image": "jarra-fernet.jpg",
-            "description": "Jarra de Fernet con Coca-Cola.",
+            "description": "Jarra de 1 litro de Fernet con Coca-Cola.",
             "price": 14000
         }
     ],
@@ -174,7 +174,7 @@
             "name": "Boulevardier",
             "image": "boulevardier.jpg",
             "description": "Whisky, Campari y Vermouth Rosso.",
-            "price": 15000
+            "price": 17000
         },
         {
             "id": "negroni",
@@ -298,7 +298,7 @@
             "name": "San Francisco",
             "image": "san-francisco.jpg",
             "description": "Jugo de naranja, Jugo de ananá, Jugo de limón y Granadina.",
-            "price": 15000
+            "price": 13000
         }
     ]
 }
