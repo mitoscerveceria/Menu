@@ -1,46 +1,39 @@
 {
     "default": [
         {
-            "id": "promo-corona",
-            "name": "Corona Party Pack",
-            "image": "promo-corona.jpg",
-            "description": "Balde de 6 Coronas.",
-            "price": 30000
-        },
-        {
             "id": "promo-dr-lemon",
-            "name": "Triple Lemon Night",
+            "name": "Promo Dr Lemon",
             "image": "promo-dr-lemon.jpg",
             "description": "Tres botellas de Dr Lemon.\nPROMO VÁLIDA HASTA LAS 00:00. ÚNICAMENTE EN EFECTIVO.",
             "price": 35000
         },
         {
             "id": "promo-cosecha-tardia",
-            "name": "Cosecha Nocturna",
+            "name": "Promo Cosecha Tardía",
             "image": "promo-cosecha-tardia.jpg",
             "description": "Tres Cosecha Tardía más 6 Speed.\nPROMO VÁLIDA HASTA LAS 00:00. ÚNICAMENTE EN EFECTIVO.",
-            "price": 62000
+            "price": 66000
         },
         {
             "id": "promo-novecento",
-            "name": "Novecento Power Party",
+            "name": "Promo Novecento",
             "image": "promo-novecento.jpg",
             "description": "Tres Novecento más 6 Speed.\nPROMO VÁLIDA HASTA LAS 00:00. ÚNICAMENTE EN EFECTIVO.",
-            "price": 62000
+            "price": 66000
         },
         {
             "id": "promo-new-age",
-            "name": "New Age Energy Mix",
+            "name": "Promo New Age",
             "image": "promo-new-age.jpg",
             "description": "Tres New Age más 6 Speed.\nPROMO VÁLIDA HASTA LAS 00:00. ÚNICAMENTE EN EFECTIVO.",
-            "price": 62000
+            "price": 66000
         },
         {
             "id": "promo-smirnoff",
-            "name": "Smirnoff Fresh Combo",
+            "name": "Promo Smirnoff",
             "image": "promo-smirnof.jpg",
             "description": "Tres Smirnoff más tres Sprite.\nPROMO VÁLIDA HASTA LAS 00:00.",
-            "price": 100000
+            "price": 110000
         }
     ]
 }
