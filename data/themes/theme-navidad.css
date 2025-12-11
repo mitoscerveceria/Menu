@@ -4,66 +4,163 @@
   --text: #f5f5f5;
   --muted: #a3bfa3;
   --primary: #ff0000;     /* rojo navideño */
-  --secondary: #47f38c;   /* verde brillante */
-  --glow: 0 0 12px rgba(255,0,0,0.6), 0 0 24px rgba(0,255,102,0.4);
+  --secondary: #00ff00;   /* verde brillante */
+  --glow: 0 0 12px rgba(200, 255, 0, 0.733), 0 0 24px rgba(0,255,102,0.4);
 }
 
-/* Fondo con nieve opcional */
-body.theme-navidad {
-  background: var(--bg) url("../assets/themes/navidad-bg.png") no-repeat center top;
-  background-size: cover;
+
+/*Fondo navideño del header*/
+body.theme-navidad .site-header {
+  background: url("../../assets/themes/christmas-header.png") repeat-x top / contain;
+  background-color: black;
+}
+
+
+/*Título Mitos Bar*/
+body.theme-navidad .site-header h1 {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-shadow: 0 0 6px rgba(255,117,24,0.8), 0 0 12px rgba(142,68,173,0.6);
+}
+
+
+/* Topbar navidad */
+body.theme-navidad .topbar {
+  background: black;
+  border: 0px;
+  border-bottom: 2px solid rgba(250, 6, 6, 0.87);
+  animation: topbarNavidadPulse 1s infinite alternate;
+}
+
+@keyframes topbarNavidadPulse {
+  from { box-shadow: 0 0 10px rgba(255,51,102,0.5), 0 0 20px rgba(179,0,60,0.3); }
+  to   { box-shadow: 0 0 20px rgba(255,51,102,0.9), 0 0 40px rgba(179,0,60,0.6); }
+}
+
+body.theme-navidad #search {
+  background: #0000008e; /* rojo vino oscuro */
   color: var(--text);
+  box-shadow: 0 0 8px rgba(31, 49, 3, 0.384);
 }
 
-/* Títulos con brillo rojo/verde */
-.section-header h2 {
-  color: var(--primary);
-  text-shadow: 0 0 8px rgba(255,0,0,0.8), 0 0 16px rgba(0,255,102,0.6);
-}
-.category-title {
+body.theme-navidad #search::placeholder {
   color: var(--secondary);
-  text-shadow: 0 0 8px rgba(255,0,0,0.8), 0 0 16px rgba(0,255,102,0.6);
+  opacity: 0.5;
 }
+
+
+/*Nav Section */
+.sections-nav a {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: rgba(165, 6, 6, 0.171);
+}
+
+.sections-nav a.active {
+  background-color: rgba(207, 9, 9, 0.568);
+  box-shadow: var(--glow);
+}
+
+
+/* Fondo general */
+body.theme-navidad {
+  background: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -2;
+  color: #f5d3d3;
+}
+
+.bg-fixed {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url("../../assets/themes/christmas-bg.png") no-repeat center top / cover;
+  z-index: -1;
+}
+
 
 /* Secciones con borde navideño */
 .section-block {
-  border: 2px solid transparent;
-  
+  border: 2px solid var(--secondary);
+  animation: navidadPulse 2s infinite alternate;
   box-shadow: 0 0 16px rgba(255,0,0,0.6), 0 0 28px rgba(0,255,102,0.5);
-  animation: navidadPulse 1s infinite alternate;
+  background: rgba(10, 20, 1, 0.904);
 }
 
 @keyframes navidadPulse {
+  0%, 100% { box-shadow: 0 0 5px var(--secondary), 0 0 10px var(--secondary) inset; border-color: var(--secondary); }
+  50% { box-shadow: 0 0 2px var(--secondary), 0 0 5px var(--secondary) inset; border-color: rgba(0, 243, 255, 0.3); }
+  /*
   from { border: 2px solid  rgba(241, 70, 70, 0.897)}
   to   { border: 2px solid #5bf347d0}
 
   from { box-shadow: 0 0 20px rgba(241, 70, 70, 0.897), 0 0 30px rgba(248, 100, 63, 0.3); }
   to   { box-shadow: 0 0 20px #5bf347d0, 0 0 20px rgba(0,255,102,0.7); }
+  */
 }
 
-.product-card.exclusive {
-    border: 2px solid transparent;
-    background: linear-gradient(var(--bg), var(--bg)) padding-box,
-                linear-gradient(135deg, var(--primary), var(--secondary)) border-box;
-    box-shadow: 0 0 16px rgba(255,0,0,0.7), 0 0 28px rgba(0,255,102,0.6);
-    animation: exclusivoNavidadPulse 0.5s infinite alternate;
+.product-card.horizontal {
+  background: rgba(71, 4, 4, 0.507);
+  
 }
 
-@keyframes exclusivoNavidadPulse {
-  from { box-shadow: 0 0 10px rgba(255,0,0,0.5), 0 0 20px rgba(0,255,102,0.3); }
-  to   { box-shadow: 0 0 20px rgba(123, 255, 0, 0.8), 0 0 40px rgba(0,255,102,0.7); }
+
+/* Títulos de sección y categoría” */
+body.theme-navidad .section-header h2 {
+  color: var(--primary);
+  text-shadow: 0 0 5px rgba(255,117,24,0.8), 0 0 12px rgba(142,68,173,0.6);
+  font-family: "Cinzel", serif;
+  font-weight: 800;
 }
 
-/* Exclusivos con etiqueta 🎄 */
-.product-card.exclusive::after {
-  content: "🎄 Exclusivo";
+body.theme-navidad .category-title {
+  color: var(--secondary);
+  text-shadow: 0 0 2px rgba(255,117,24,0.8), 0 0 12px rgba(142,68,173,0.6);
+  font-family: "Bellefair", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* Productos exclusivos con marco especial */
+body.theme-navidad .product-card.exclusive {
+  background-color: #3f0909;
+  box-shadow: 0 0 16px rgba(255, 39, 24, 0.7), 0 0 28px rgba(142,68,173,0.6);
+  animation: navidadExclusivePulse 0.5s infinite alternate;
+}
+
+@keyframes navidadExclusivePulse {
+  0%, 100% { box-shadow: 0 0 5px var(--primary), 0 0 10px var(--primary) inset; border-color: var(--primary); opacity: 2;}
+  50% { box-shadow: 0 0 2px var(--primary), 0 0 5px var(--primary) inset; border-color: rgba(0, 243, 255, 0.3); opacity: 0.8;}
+}
+
+body.theme-navidad .product-card.exclusive::after {
+  content: "🎄";
   color: var(--secondary);
   text-shadow: 0 0 6px rgba(0,255,102,0.8);
   
 }
+
 
 body.theme-navidad .theme-emojis::after {
   content: " 🎄✨";
 }
 
 
+/*Luces navideñas esquina*/
+body.theme-navidad .topbar::after {
+  content: "";
+  position: absolute;
+  top: 90px; /* justo debajo del header */
+  width: 180px; height: 180px;
+  background: url("../../assets/themes/christmas-lights.png") no-repeat center/contain;
+  opacity: 1;
+  pointer-events: none;
+}
+
+body.theme-navidad .topbar::after  { right: -17px; }
