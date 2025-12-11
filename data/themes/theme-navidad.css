@@ -68,19 +68,21 @@ body.theme-navidad #search::placeholder {
 
 
 /* Fondo general */
-body.theme-navidad {
-  background: transparent;
+body.theme-halloween {
+  background-color: black;
   background-size: cover;
   background-attachment: fixed;
   z-index: -2;
-  color: #f5d3d3;
+  color: #000000;
 }
 
 .bg-fixed {
+  
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   background: url("../../assets/themes/christmas-bg.png") no-repeat center top / cover;
   z-index: -1;
+  background-color: #000000;
 }
 
 
