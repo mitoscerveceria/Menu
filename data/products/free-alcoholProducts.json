@@ -5,7 +5,7 @@
         "name": "Agua mineral",
         "image": "water.jpg",
         "description": "Agua mineral sin gas chica.",
-        "price": 3000
+        "price": 4000
     },
     {
         "id": "soda-can",

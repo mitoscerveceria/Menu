@@ -2,7 +2,7 @@
   --panel: #111625;
   --text: #e8ecf1;
   --muted: #9aa4b2;
-  --primary: #f36c9b;   /* rojo neón */
+  --primary: #ee2828;   /* rojo neón */
   --secondary: #b8f8fa; /* azul neón */
   --glow: 0 0 10px rgba(219, 7, 7, 0.897), 0 0 8px rgba(255, 0, 0, 0.534);
 }
@@ -84,16 +84,20 @@ body.theme-default #search::placeholder {
   padding-top: 0px;
 }
 .section-header h2 {
-  font-family: "Neonderthaw", cursive;
-  font-size: 44px;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--primary);
-  text-shadow: 
-    0 0 3px rgba(247, 174, 174, 0.952),
-    0 0 5px rgba(255, 59, 59, 0.856),
-    0 0 10px rgba(255, 59, 59, 0.6),
-    0 0 20px rgba(255, 59, 59, 0.6);
+  /* CAMBIO 1: El color base ahora es rojo neón, no blanco */
+    color: #ff1a1a; 
+    
+    font-family: "Neonderthaw", cursive;
+    font-weight: 600;
+    font-size: 40px;
+    
+    /* CAMBIO 2: Todas las sombras son rojas, sin capas blancas */
+    text-shadow:
+        0 0 0.3px #ff0000,    /* Borde suave inmediato */
+        0 0 10px #ff0000,   /* Resplandor cercano */
+        0 0 20px #b30000,   /* Resplandor medio (un poco más oscuro para dar cuerpo) */
+        0 0 40px #ff0000,   /* Resplandor lejano */
+        0 0 80px #ff0000;   /* Ambiente */
 }
 .category-title {
   text-transform: uppercase;

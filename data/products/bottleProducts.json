@@ -65,21 +65,21 @@
             "name": "Dr Lemon",
             "image": "dr-lemon.jpg",
             "description": "Dr Lemon Vodka de 1 Litro.",
-            "price": 15000
+            "price": 16000
         },
         {
             "id": "smirnoff",
             "name": "Smirnoff",
             "image": "smirnoff.jpg",
             "description": "Smirnoff común con 2 Speed, Jugo de Naranja o Sprite.",
-            "price": 44000
+            "price": 46000
         },
         {
             "id": "smirnoff-saborizado",
             "name": "Smirnoff Saborizado",
             "image": "smirnoff-saborizado.jpg",
             "description": "Smirnoff Saborizado (Frutilla, Sandía, Maracuyá o Manzana Verde) con 2 Speed, Jugo de Naranja o Sprite.",
-            "price": 44000
+            "price": 46000
         },
         {
             "id": "sernova",
@@ -93,7 +93,7 @@
             "name": "Skyy",
             "image": "skyy.jpg",
             "description": "Skyy común con 2 Speed, Jugo de Naranja o Sprite.",
-            "price": 46000
+            "price": 48000
         },
         {
             "id": "absolut-saborizado",
@@ -130,7 +130,7 @@
             "name": "Jagermeister",
             "image": "jagermeister.jpg",
             "description": "Jagermeister con 4 Speed. ",
-            "price": 120000
+            "price": 130000
         }
         
     ],
@@ -147,14 +147,14 @@
             "name": "Black Label",
             "image": "black-label.jpg",
             "description": "Whisky Johnnie Walker Black Label de 750 ml.",
-            "price": 120000
+            "price": 130000
         },
         {
             "id": "jack-daniels",
             "name": "Jack Daniel's",
             "image": "jack-daniels.jpg",
             "description": "Whisky Jack Daniel's Old No.7 de 750 ml.",
-            "price": 120000
+            "price": 130000
         }
     ],
     "exclusive": [
