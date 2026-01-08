@@ -12,21 +12,21 @@
       "name": "Corona",
       "image": "corona.jpg",
       "description": "Botella de 355 ml.",
-      "price": 6000
+      "price": 7000
     },
     {
       "id": "heineken",
       "name": "Heineken",
       "image": "heineken.jpg",
       "description": "Botella de 1 litro.",
-      "price": 12000
+      "price": 14000
     },
     {
       "id": "stella",
       "name": "Stella",
       "image": "stella.jpg",
       "description": "Botella de 1 litro.",
-      "price": 12000
+      "price": 13000
     }
   ],
   "beer-tap": [
@@ -42,14 +42,14 @@
       "name": "Heineken",
       "image": "heineken-tap.jpg",
       "description": "Chopera Heineken de 2 Litros.",
-      "price": 28000
+      "price": 32000
     },
     {
       "id": "stella-tap",
       "name": "Stella",
       "image": "stella-tap.jpg",
       "description": "Chopera Stella de 2 Litros.",
-      "price": 28000
+      "price": 30000
     }
   ]
 }

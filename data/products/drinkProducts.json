@@ -5,7 +5,7 @@
             "name": "Jarra de Fernet",
             "image": "jarra-fernet.jpg",
             "description": "Jarra de 1 litro de Fernet con Coca-Cola.",
-            "price": 14000
+            "price": 15000
         }
     ],
     "classic": [
@@ -21,7 +21,7 @@
             "name": "Cuba Libre",
             "image": "cuba-libre.jpg",
             "description": "Ron, Coca-Cola y Limón.",
-            "price": 13000
+            "price": 14000
         },
         {
             "id": "durazno-champagne",
@@ -35,28 +35,28 @@
             "name": "Garibaldi (Campari con Naranja)",
             "image": "garibaldi.jpg",
             "description": "Campari y Jugo de Naranja.",
-            "price": 13000
+            "price": 14000
         },
         {
             "id": "melon-speed",
             "name": "Melon con Speed",
             "image": "melon-speed.jpg",
             "description": "Una medida de Licor de Melón y una lata de Speed.",
-            "price": 15000
+            "price": 16000
         },
         {
             "id": "jagger-speed",
             "name": "Jager con Speed",
             "image": "jagger-speed.jpg",
             "description": "Una medida de Jägermeister y una lata de Speed.",
-            "price": 15000
+            "price": 16000
         },
         {
             "id": "tequila-sunrise",
             "name": "Tequila Sunrise",
             "image": "tequila-sunrise.jpg",
             "description": "Tequila, Jugo de Naranja y Granadina.",
-            "price": 13000
+            "price": 14000
         }
     ],
     "fruity-sweet": [
@@ -72,7 +72,7 @@
             "name": "Esperma de Pitufo",
             "image": "esperma-de-pitufo.jpg",
             "description": "Vodka, Piña Colada, Blue Curacao y Pulpa de Ananá.",
-            "price": 13000
+            "price": 14000
         },
         {
             "id": "missil",
@@ -93,28 +93,28 @@
             "name": "Pantera Rosa",
             "image": "pantera-rosa.jpg",
             "description": "Vodka, Piña Colada, Granadina y Pulpa de Ananá.",
-            "price": 13000
+            "price": 14000
         },
         {
             "id": "pink-summer",
             "name": "Pink Summer",
             "image": "pink-summer.jpg",
             "description": "Cosecha Tardía, Pulpa de Ananá y Jugo de Pomelo.",
-            "price": 13000
+            "price": 14000
         },
         {
             "id": "sex-on-the-beach",
             "name": "Sex on the Beach",
             "image": "sex-on-the-beach.jpg",
             "description": "Vodka, Licor de Durazno, Jugo de Naranja y Granadina.",
-            "price": 13000
+            "price": 14000
         },
         {
             "id": "tropical-tardia",
             "name": "Tropical Tardia",
             "image": "tropical-tardia.jpg",
             "description": "Cosecha Tardía, Pulpa de Maracuyá y Zumo de Limón.",
-            "price": 13000
+            "price": 14000
         }
     ],
     "citrus-refreshing": [
@@ -123,7 +123,7 @@
             "name": "Blue Lagoon",
             "image": "blue-lagoon.jpg",
             "description": "Vodka, Blue Curaçao, Jugo de Limón y Sprite.",
-            "price": 13000
+            "price": 14000
         },
         {
             "id": "caipirinha",
@@ -137,7 +137,7 @@
             "name": "Caipiroska",
             "image": "caipiroska.jpg",
             "description": "Vodka, Lima, Azúcar y Soda.",
-            "price": 13000
+            "price": 14000
         },
         {
             "id": "gin-tonic",
@@ -188,7 +188,7 @@
             "name": "Medida de Black Label",
             "image": "medida-black.jpg",
             "description": "2 oz de Whisky Black Label con hielo.",
-            "price": 15000
+            "price": 16000
         },
         {
             "id": "satanas",
@@ -205,7 +205,7 @@
             "name": "Shot Tequila",
             "image": "tequila.jpg",
             "description": "Medida de Tequila con Sal y Limón.",
-            "price": 4000
+            "price": 5000
         },
         {
             "id": "chupito-beso-prohibido",

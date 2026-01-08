@@ -1,11 +1,18 @@
 {
     "default": [
         {
+            "id": "promo-corona",
+            "name": "Promo Corona",
+            "image": "promo-corona.jpg",
+            "description": "Balde de 6 Coronas.",
+            "price": 36000
+        },
+        {
             "id": "promo-dr-lemon",
             "name": "Promo Dr Lemon",
             "image": "promo-dr-lemon.jpg",
             "description": "Tres botellas de Dr Lemon.\nPROMO VÁLIDA HASTA LAS 00:00. ÚNICAMENTE EN EFECTIVO.",
-            "price": 35000
+            "price": 40000
         },
         {
             "id": "promo-cosecha-tardia",
@@ -33,7 +40,7 @@
             "name": "Promo Smirnoff",
             "image": "promo-smirnof.jpg",
             "description": "Tres Smirnoff más tres Sprite.\nPROMO VÁLIDA HASTA LAS 00:00.",
-            "price": 110000
+            "price": 120000
         }
     ]
 }
